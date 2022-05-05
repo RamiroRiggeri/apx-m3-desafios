@@ -1,59 +1,16 @@
-body {
-  background-color: white;
+@font-face {
+    font-family: "sape";
+    src: url('https://fonts.googleapis.com/css2?family=Source+Code+Pro');
+  }
+
+body{
+    background-color: darkkhaki;
 }
 
-.menu {
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
-  background-color: #cacaca;
-  width: 950px;
-  height: 100px;
-  padding: 28px 40px;
-  border: solid;
+.titulo{
+    font-family: "Mukta";
 }
 
-.contenedor-1-logo-rojo {
-  display: flex;
-  background-color: #ff6060;
-  align-items: center;
-  justify-content: center;
-  font-family: sans-serif;
-  padding: 15px 20px;
-  width: 120px;
-  height: 40px;
-  margin-top: 10px;
-}
-
-.links-grises {
-  display: flex;
-  justify-content: space-between;
-  background-color: #78f0aa;
-  margin: 15px 15px;
-  align-items: center;
-}
-
-.enlace {
-  display: flex;
-  margin: 5px;
-  width: 100px;
-  font-family: sans-serif;
-  justify-content: center;
-  align-items: center;
-}
-
-.contenedor-boton {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.boton-violeta {
-  cursor: pointer;
-  font-size: 12px;
-  width: 162px;
-  padding: 10px 10px;
-  border: none;
-  background-color: #b352ff;
-  color: white;
+.parrafo{
+    font-family: "Lobster";
 }
