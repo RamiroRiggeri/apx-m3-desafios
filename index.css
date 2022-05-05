@@ -1,0 +1,92 @@
+body {
+  background-color: #ffdb5b;
+}
+
+.el-h1 {
+  position: absolute;
+  width: 500px;
+  height: 66px;
+  left: 75px;
+  top: 50px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 56px;
+  line-height: 66px;
+}
+
+.el-p-rojo {
+  position: absolute;
+  width: 700px;
+  height: 200px;
+  left: 67px;
+  top: 229px;
+
+  background: #ff5050;
+  position: absolute;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
+  padding: 54px 63px;
+  /* podría hacerlo así sino, siendo el primer valor arriba-abajo y el segundo derecha-izquierda */
+  /* --- */
+  /* padding: 30px 10px 20px 40px;
+  en este caso es en sentido horario, es decir 30=arriba, 10=derecha, 20=abajo, 40=izquierda */
+  /* padding-left: 63px;
+  padding-right: 63px;
+  padding-top: 54px;
+  padding-bottom: 54px; */
+  color: #000000;
+}
+
+.el-p-celeste {
+  position: absolute;
+  width: 551px;
+  height: 200px;
+  left: 341px;
+  top: 632px;
+
+  background: #c6fff5;
+  border: 5px solid #000000;
+  box-sizing: border-box;
+
+  position: absolute;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
+  padding-left: 42px;
+  padding-right: 42px;
+  padding-top: 27px;
+  padding-bottom: 27px;
+  color: #000000;
+}
+
+.img {
+  position: absolute;
+  width: 230px;
+  height: 195px;
+  left: 85px;
+  top: 883px;
+}
+
+.el-h3-colgado {
+  position: absolute;
+  width: 402px;
+  height: 53px;
+  left: 341px;
+  top: 939px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 45px;
+  line-height: 53px;
+
+  color: #000000;
+}
