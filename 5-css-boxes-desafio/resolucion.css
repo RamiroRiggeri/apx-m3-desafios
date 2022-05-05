@@ -1,0 +1,35 @@
+body {
+  background-color: #ffdb5b;
+  padding: 0 75px;
+}
+
+.titulo {
+  font-size: 56px;
+}
+
+.parrafo-ppal {
+  background-color: #ff5050;
+  padding: 54px 63px;
+}
+/* como es un párrafo, se acomoda el texto a toda la caja */
+
+.parrafo-secundario {
+  background-color: #c6fff5;
+  border: 5px solid #000000;
+  padding: 27px 42px;
+  margin-top: 50px;
+  margin-left: 260px;
+  /* 341 - 67 = 274 */
+}
+
+.imagen {
+  margin-top: 50px;
+  vertical-align: middle;
+}
+
+.titulo-ultimo {
+  display: inline;
+  margin-left: 35px;
+  font-size: 45px;
+  vertical-align: middle;
+}
